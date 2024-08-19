@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 60px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: #000;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-left img {
+    height: 100px;
+  
+}
+
+.nav-left ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.nav-right a {
+    color: rgb(138, 134, 134);
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a i {
+    font-size: 20px;
+}
+
+.nav-right img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    text-decoration: underline;
+}
+
+.coupon p {
+    text-align: center;
+    color: rgb(34, 89, 241);
+    margin-top: 20px;
+}
+
+.off {
+    font-size: 25px;
+    font-weight: 550;
+    color: orange;
+}
+
+.img-change {
+    background-color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-change img {
+    width: 300px;
+    align-items: center;
+}
+
+.new-arravel img {
+    width: 70%;
+    height: 110vh;
+}
+
+.buds img {
+    position: absolute;
+    top: 189px; 
+    left: 152vh;
+    width: 463px;
+    z-index: -1;
+}
+
+.star img {
+    position: absolute;
+    top: 250px; 
+    left: 177vh;
+    width: 110px;
+    z-index: 1;
+}
+
+.plyr img {
+    position: absolute;
+    top: 470px; 
+    left: 152vh;
+    width: 463px;
+    z-index: -2;
+}
+
+.postion-text {
+    position: absolute;
+    top: 350px; 
+    left: 165vh;
+    z-index: 2;
+}
+
+.postion-text h3 {
+    font-weight: 800;
+    color: #fff;
+}
+
+.postion-text p {
+    color: #fff;
+}
+
+.position-text2 {
+    position: absolute;
+    top: 580px; 
+    left: 165vh;
+    z-index: 2;
+}
+
+.position-text2 h3 {
+    font-weight: 600;
+    color: #fff;
+    margin-left: 80px;
+}
+
+.position-text2 p {
+    color: #fff;
+    margin-right: 30px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 5;
+    position: absolute; 
+    top: 840px;
+   
+}
+
+.image-row img {
+    width: 33.33%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.smokin {
+    width: 100%;
+    text-align: center;
+}
+
+.smokin img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    margin-top: 67vh;
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+   
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.accounts {
+    margin-right: 50px;
+}
+
+.accounts h5 {
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.email-signup input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.email-signup img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+}
+
+.row {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.col a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.col a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    margin-left: 150px;
+    text-align: center;
+}
+
+.links h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.links i {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 30px;
+    cursor: pointer;
+    gap: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.links p {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: start;
+}
+.fixed-chat{
+    position: fixed;
+    top: 85vh;
+    left: 30px;
+    z-index: 11;
+
+}
+
+hr{
+    background-color: antiquewhite;
+}
+.last{
+    text-align: end;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 20px;
+
+}
+.custom-hr{
+    
+    background-color: #3498db; 
+    border-color: antiquewhite; 
+   
+}
